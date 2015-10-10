@@ -58,8 +58,6 @@ let globalStyle:CommonLayout = {
         return iPhone6LayoutStruct()
     case .BiggerPlus:
         return iPhone6PLayoutStruct()
-    case .iPad(.Normal):
-         return iPhone6PLayoutStruct()
     default:
         return CommonLayoutStruct()
     }
