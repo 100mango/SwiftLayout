@@ -23,10 +23,12 @@ struct CommonLayoutStruct:CommonLayout{
 //MARK: common button layout
 protocol ButtonLayout{
     var buttonColor:UIColor {get}
+    var buttonSize:CGSize {get}
 }
 
 extension ButtonLayout{
     var buttonColor:UIColor {return UIColor.blueColor()}
+    var buttonSize:CGSize {return CGSizeMake(20, 20)}
 }
 
 struct ButtonLayoutStruct:ButtonLayout{

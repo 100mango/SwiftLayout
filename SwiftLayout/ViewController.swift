@@ -12,8 +12,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         
+        let button = UIButton()
+        button.frame.size = globalStyle.buttonLayout.buttonSize
+        button.backgroundColor = globalStyle.buttonLayout.buttonColor
+        button.center = self.view.center
+        self.view.addSubview(button)
+
     }
 
     override func didReceiveMemoryWarning() {
