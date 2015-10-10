@@ -9,10 +9,9 @@
 import UIKit
 
 struct iPhone6PLayoutStruct:CommonLayout{
-    var buttonLayout:ButtonLayout {return iPhone6PButtonStruct()}
+    let buttonLayout:ButtonLayout = iPhone6PButtonStruct()
 }
 
 struct iPhone6PButtonStruct:ButtonLayout{
-    var buttonSize:CGSize {return CGSizeMake(100, 100)}
-    
+    let buttonSize:CGSize = CGSizeMake(100, 100)
 }

@@ -9,11 +9,11 @@
 import UIKit
 
 struct iPhone6LayoutStruct:CommonLayout{
-    var buttonLayout:ButtonLayout {return iPhone6ButtonStruct()}
+    let buttonLayout:ButtonLayout = iPhone6ButtonStruct()
 }
 
 struct iPhone6ButtonStruct:ButtonLayout{
-    var buttonColor:UIColor {return UIColor.redColor()}
+    let buttonColor:UIColor =  UIColor.redColor()
 }
 
 
