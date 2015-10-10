@@ -14,6 +14,9 @@
 		DBAEC1691BC8C89300ECAEE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBAEC1671BC8C89300ECAEE5 /* LaunchScreen.storyboard */; };
 		DBAEC1741BC8C89300ECAEE5 /* SwiftLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAEC1731BC8C89300ECAEE5 /* SwiftLayoutTests.swift */; };
 		DBAEC17F1BC8C89300ECAEE5 /* SwiftLayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAEC17E1BC8C89300ECAEE5 /* SwiftLayoutUITests.swift */; };
+		DBAEC1901BC8EEA800ECAEE5 /* iPhone6Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAEC18F1BC8EEA800ECAEE5 /* iPhone6Layout.swift */; settings = {ASSET_TAGS = (); }; };
+		DBAEC1911BC8F08800ECAEE5 /* CommonLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAEC18D1BC8CA4400ECAEE5 /* CommonLayout.swift */; settings = {ASSET_TAGS = (); }; };
+		DBAEC1931BC8F3A900ECAEE5 /* SwiftLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAEC1921BC8F3A900ECAEE5 /* SwiftLayout.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		DBAEC17A1BC8C89300ECAEE5 /* SwiftLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBAEC17E1BC8C89300ECAEE5 /* SwiftLayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLayoutUITests.swift; sourceTree = "<group>"; };
 		DBAEC1801BC8C89300ECAEE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBAEC18D1BC8CA4400ECAEE5 /* CommonLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonLayout.swift; sourceTree = "<group>"; };
+		DBAEC18F1BC8EEA800ECAEE5 /* iPhone6Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iPhone6Layout.swift; sourceTree = "<group>"; };
+		DBAEC1921BC8F3A900ECAEE5 /* SwiftLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,7 @@
 		DBAEC15D1BC8C89300ECAEE5 /* SwiftLayout */ = {
 			isa = PBXGroup;
 			children = (
+				DBAEC18C1BC8CA2300ECAEE5 /* SwiftLayout */,
 				DBAEC15E1BC8C89300ECAEE5 /* AppDelegate.swift */,
 				DBAEC1601BC8C89300ECAEE5 /* ViewController.swift */,
 				DBAEC1621BC8C89300ECAEE5 /* Main.storyboard */,
@@ -123,6 +130,16 @@
 				DBAEC1801BC8C89300ECAEE5 /* Info.plist */,
 			);
 			path = SwiftLayoutUITests;
+			sourceTree = "<group>";
+		};
+		DBAEC18C1BC8CA2300ECAEE5 /* SwiftLayout */ = {
+			isa = PBXGroup;
+			children = (
+				DBAEC18D1BC8CA4400ECAEE5 /* CommonLayout.swift */,
+				DBAEC18F1BC8EEA800ECAEE5 /* iPhone6Layout.swift */,
+				DBAEC1921BC8F3A900ECAEE5 /* SwiftLayout.swift */,
+			);
+			name = SwiftLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +272,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBAEC1931BC8F3A900ECAEE5 /* SwiftLayout.swift in Sources */,
+				DBAEC1911BC8F08800ECAEE5 /* CommonLayout.swift in Sources */,
+				DBAEC1901BC8EEA800ECAEE5 /* iPhone6Layout.swift in Sources */,
 				DBAEC1611BC8C89300ECAEE5 /* ViewController.swift in Sources */,
 				DBAEC15F1BC8C89300ECAEE5 /* AppDelegate.swift in Sources */,
 			);
