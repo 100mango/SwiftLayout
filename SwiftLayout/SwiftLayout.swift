@@ -56,8 +56,10 @@ let globalStyle:CommonLayout = {
     switch screenModel{
     case .Bigger:
         return iPhone6LayoutStruct()
+    case .BiggerPlus:
+        return iPhone6PLayoutStruct()
     case .iPad(.Normal):
-         return iPhone6LayoutStruct()
+         return iPhone6PLayoutStruct()
     default:
         return CommonLayoutStruct()
     }

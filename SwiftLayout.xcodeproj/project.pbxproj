@@ -17,6 +17,7 @@
 		DBAEC1901BC8EEA800ECAEE5 /* iPhone6Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAEC18F1BC8EEA800ECAEE5 /* iPhone6Layout.swift */; settings = {ASSET_TAGS = (); }; };
 		DBAEC1911BC8F08800ECAEE5 /* CommonLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAEC18D1BC8CA4400ECAEE5 /* CommonLayout.swift */; settings = {ASSET_TAGS = (); }; };
 		DBAEC1931BC8F3A900ECAEE5 /* SwiftLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAEC1921BC8F3A900ECAEE5 /* SwiftLayout.swift */; settings = {ASSET_TAGS = (); }; };
+		DBAEC1951BC8FB8B00ECAEE5 /* iPhone6PLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAEC1941BC8FB8B00ECAEE5 /* iPhone6PLayout.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		DBAEC18D1BC8CA4400ECAEE5 /* CommonLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonLayout.swift; sourceTree = "<group>"; };
 		DBAEC18F1BC8EEA800ECAEE5 /* iPhone6Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iPhone6Layout.swift; sourceTree = "<group>"; };
 		DBAEC1921BC8F3A900ECAEE5 /* SwiftLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftLayout.swift; sourceTree = "<group>"; };
+		DBAEC1941BC8FB8B00ECAEE5 /* iPhone6PLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iPhone6PLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,9 +137,10 @@
 		DBAEC18C1BC8CA2300ECAEE5 /* SwiftLayout */ = {
 			isa = PBXGroup;
 			children = (
+				DBAEC1921BC8F3A900ECAEE5 /* SwiftLayout.swift */,
 				DBAEC18D1BC8CA4400ECAEE5 /* CommonLayout.swift */,
 				DBAEC18F1BC8EEA800ECAEE5 /* iPhone6Layout.swift */,
-				DBAEC1921BC8F3A900ECAEE5 /* SwiftLayout.swift */,
+				DBAEC1941BC8FB8B00ECAEE5 /* iPhone6PLayout.swift */,
 			);
 			name = SwiftLayout;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 				DBAEC1911BC8F08800ECAEE5 /* CommonLayout.swift in Sources */,
 				DBAEC1901BC8EEA800ECAEE5 /* iPhone6Layout.swift in Sources */,
 				DBAEC1611BC8C89300ECAEE5 /* ViewController.swift in Sources */,
+				DBAEC1951BC8FB8B00ECAEE5 /* iPhone6PLayout.swift in Sources */,
 				DBAEC15F1BC8C89300ECAEE5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
