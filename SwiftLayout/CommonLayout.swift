@@ -27,9 +27,14 @@ protocol ButtonLayout{
 }
 
 extension ButtonLayout{
-    var buttonColor:UIColor {return UIColor.blueColor()}
+    var buttonColor:UIColor {return RGBA(0, 255, 0, 1)}
     var buttonSize:CGSize {return CGSizeMake(20, 20)}
 }
 
 struct ButtonLayoutStruct:ButtonLayout{
+}
+
+//helper
+func RGBA(red:CGFloat,_ green:CGFloat, _ blue:CGFloat, _ alpha:CGFloat) ->UIColor{
+    return UIColor(red: red/255, green: green/255, blue: blue/255, alpha: alpha)
 }
