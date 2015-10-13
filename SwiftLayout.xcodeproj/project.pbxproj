@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DBAA849C1BCCAB48003A7B33 /* ColorUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAA849B1BCCAB48003A7B33 /* ColorUtility.swift */; settings = {ASSET_TAGS = (); }; };
 		DBAEC15F1BC8C89300ECAEE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAEC15E1BC8C89300ECAEE5 /* AppDelegate.swift */; };
 		DBAEC1611BC8C89300ECAEE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAEC1601BC8C89300ECAEE5 /* ViewController.swift */; };
 		DBAEC1641BC8C89300ECAEE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBAEC1621BC8C89300ECAEE5 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DBAA849B1BCCAB48003A7B33 /* ColorUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorUtility.swift; sourceTree = "<group>"; };
 		DBAEC15B1BC8C89300ECAEE5 /* SwiftLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBAEC15E1BC8C89300ECAEE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBAEC1601BC8C89300ECAEE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				DBAEC18D1BC8CA4400ECAEE5 /* CommonLayout.swift */,
 				DBAEC18F1BC8EEA800ECAEE5 /* iPhone6Layout.swift */,
 				DBAEC1941BC8FB8B00ECAEE5 /* iPhone6PLayout.swift */,
+				DBAA849B1BCCAB48003A7B33 /* ColorUtility.swift */,
 			);
 			name = SwiftLayout;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				DBAEC1901BC8EEA800ECAEE5 /* iPhone6Layout.swift in Sources */,
 				DBAEC1611BC8C89300ECAEE5 /* ViewController.swift in Sources */,
 				DBAEC1951BC8FB8B00ECAEE5 /* iPhone6PLayout.swift in Sources */,
+				DBAA849C1BCCAB48003A7B33 /* ColorUtility.swift in Sources */,
 				DBAEC15F1BC8C89300ECAEE5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +509,7 @@
 				DBAEC1851BC8C89300ECAEE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DBAEC1861BC8C89300ECAEE5 /* Build configuration list for PBXNativeTarget "SwiftLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				DBAEC1881BC8C89300ECAEE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DBAEC1891BC8C89300ECAEE5 /* Build configuration list for PBXNativeTarget "SwiftLayoutUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				DBAEC18B1BC8C89300ECAEE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

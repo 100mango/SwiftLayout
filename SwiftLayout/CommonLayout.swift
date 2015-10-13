@@ -33,12 +33,3 @@ extension ButtonLayout{
 
 struct ButtonLayoutStruct:ButtonLayout{
 }
-
-//helper
-func RGB(red:CGFloat,_ green:CGFloat, _ blue:CGFloat) ->UIColor{
-    return UIColor(red: red/255, green: green/255, blue: blue/255, alpha: 1)
-}
-
-func RGBA(red:CGFloat,_ green:CGFloat, _ blue:CGFloat, _ alpha:CGFloat) ->UIColor{
-    return UIColor(red: red/255, green: green/255, blue: blue/255, alpha: alpha)
-}

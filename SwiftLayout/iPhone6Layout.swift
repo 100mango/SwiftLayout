@@ -13,7 +13,7 @@ struct iPhone6LayoutStruct:CommonLayout{
 }
 
 struct iPhone6ButtonStruct:ButtonLayout{
-    let buttonColor:UIColor =  UIColor.redColor()
+    let buttonColor:UIColor = hexColor("#01b2b2")
 }
 
 
