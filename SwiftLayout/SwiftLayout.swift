@@ -51,7 +51,7 @@ private let screenModel: ScreenModel = {
     
     }()
 
-let globalStyle:CommonLayout = {
+var globalStyle:CommonLayout = {
     
     switch screenModel{
     case .Bigger:
@@ -64,5 +64,16 @@ let globalStyle:CommonLayout = {
 }()
 
 
+func refreshStyle(){
+    globalStyle = {
+        switch screenModel{
+        case .Bigger:
+            return iPhone6LayoutStruct()
+        case .BiggerPlus:
+            return iPhone6PLayoutStruct()
+        default:
+            return CommonLayoutStruct()
+        }}()
+}
 
 
