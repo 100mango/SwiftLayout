@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DBAA849C1BCCAB48003A7B33 /* ColorUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAA849B1BCCAB48003A7B33 /* ColorUtility.swift */; settings = {ASSET_TAGS = (); }; };
+		4303897A2928B6C740FF25AB /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F676C16C3CC19360279938 /* Pods.framework */; };
+		DB731FCB1BEDD40000711320 /* SwiftTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB731FCA1BEDD40000711320 /* SwiftTheme.swift */; };
+		DBAA849C1BCCAB48003A7B33 /* ColorUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAA849B1BCCAB48003A7B33 /* ColorUtility.swift */; };
 		DBAEC15F1BC8C89300ECAEE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAEC15E1BC8C89300ECAEE5 /* AppDelegate.swift */; };
 		DBAEC1611BC8C89300ECAEE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAEC1601BC8C89300ECAEE5 /* ViewController.swift */; };
 		DBAEC1641BC8C89300ECAEE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBAEC1621BC8C89300ECAEE5 /* Main.storyboard */; };
@@ -15,10 +17,10 @@
 		DBAEC1691BC8C89300ECAEE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBAEC1671BC8C89300ECAEE5 /* LaunchScreen.storyboard */; };
 		DBAEC1741BC8C89300ECAEE5 /* SwiftLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAEC1731BC8C89300ECAEE5 /* SwiftLayoutTests.swift */; };
 		DBAEC17F1BC8C89300ECAEE5 /* SwiftLayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAEC17E1BC8C89300ECAEE5 /* SwiftLayoutUITests.swift */; };
-		DBAEC1901BC8EEA800ECAEE5 /* iPhone6Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAEC18F1BC8EEA800ECAEE5 /* iPhone6Layout.swift */; settings = {ASSET_TAGS = (); }; };
-		DBAEC1911BC8F08800ECAEE5 /* CommonLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAEC18D1BC8CA4400ECAEE5 /* CommonLayout.swift */; settings = {ASSET_TAGS = (); }; };
-		DBAEC1931BC8F3A900ECAEE5 /* SwiftLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAEC1921BC8F3A900ECAEE5 /* SwiftLayout.swift */; settings = {ASSET_TAGS = (); }; };
-		DBAEC1951BC8FB8B00ECAEE5 /* iPhone6PLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAEC1941BC8FB8B00ECAEE5 /* iPhone6PLayout.swift */; settings = {ASSET_TAGS = (); }; };
+		DBAEC1901BC8EEA800ECAEE5 /* iPhone6Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAEC18F1BC8EEA800ECAEE5 /* iPhone6Layout.swift */; };
+		DBAEC1911BC8F08800ECAEE5 /* CommonLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAEC18D1BC8CA4400ECAEE5 /* CommonLayout.swift */; };
+		DBAEC1931BC8F3A900ECAEE5 /* SwiftLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAEC1921BC8F3A900ECAEE5 /* SwiftLayout.swift */; };
+		DBAEC1951BC8FB8B00ECAEE5 /* iPhone6PLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAEC1941BC8FB8B00ECAEE5 /* iPhone6PLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AC22A985DFE10EEB2115870 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		98771E6628F6FA39D89361AC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		DB731FCA1BEDD40000711320 /* SwiftTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftTheme.swift; sourceTree = "<group>"; };
 		DBAA849B1BCCAB48003A7B33 /* ColorUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorUtility.swift; sourceTree = "<group>"; };
 		DBAEC15B1BC8C89300ECAEE5 /* SwiftLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBAEC15E1BC8C89300ECAEE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +62,7 @@
 		DBAEC18F1BC8EEA800ECAEE5 /* iPhone6Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iPhone6Layout.swift; sourceTree = "<group>"; };
 		DBAEC1921BC8F3A900ECAEE5 /* SwiftLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftLayout.swift; sourceTree = "<group>"; };
 		DBAEC1941BC8FB8B00ECAEE5 /* iPhone6PLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iPhone6PLayout.swift; sourceTree = "<group>"; };
+		F2F676C16C3CC19360279938 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4303897A2928B6C740FF25AB /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +98,8 @@
 				DBAEC1721BC8C89300ECAEE5 /* SwiftLayoutTests */,
 				DBAEC17D1BC8C89300ECAEE5 /* SwiftLayoutUITests */,
 				DBAEC15C1BC8C89300ECAEE5 /* Products */,
+				DE0F33955936327697495FFA /* Pods */,
+				E17388DB7256C8FCE7682C45 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,8 +153,26 @@
 				DBAEC18F1BC8EEA800ECAEE5 /* iPhone6Layout.swift */,
 				DBAEC1941BC8FB8B00ECAEE5 /* iPhone6PLayout.swift */,
 				DBAA849B1BCCAB48003A7B33 /* ColorUtility.swift */,
+				DB731FCA1BEDD40000711320 /* SwiftTheme.swift */,
 			);
 			name = SwiftLayout;
+			sourceTree = "<group>";
+		};
+		DE0F33955936327697495FFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AC22A985DFE10EEB2115870 /* Pods.debug.xcconfig */,
+				98771E6628F6FA39D89361AC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E17388DB7256C8FCE7682C45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2F676C16C3CC19360279938 /* Pods.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,9 +182,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBAEC1831BC8C89300ECAEE5 /* Build configuration list for PBXNativeTarget "SwiftLayout" */;
 			buildPhases = (
+				180F54B322E8C15361D8B70A /* Check Pods Manifest.lock */,
 				DBAEC1571BC8C89300ECAEE5 /* Sources */,
 				DBAEC1581BC8C89300ECAEE5 /* Frameworks */,
 				DBAEC1591BC8C89300ECAEE5 /* Resources */,
+				0E4CC622CCAB1F577402A977 /* Embed Pods Frameworks */,
+				53FB8247334DFFB046436B72 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -273,6 +303,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E4CC622CCAB1F577402A977 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		180F54B322E8C15361D8B70A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		53FB8247334DFFB046436B72 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DBAEC1571BC8C89300ECAEE5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -281,6 +359,7 @@
 				DBAEC1931BC8F3A900ECAEE5 /* SwiftLayout.swift in Sources */,
 				DBAEC1911BC8F08800ECAEE5 /* CommonLayout.swift in Sources */,
 				DBAEC1901BC8EEA800ECAEE5 /* iPhone6Layout.swift in Sources */,
+				DB731FCB1BEDD40000711320 /* SwiftTheme.swift in Sources */,
 				DBAEC1611BC8C89300ECAEE5 /* ViewController.swift in Sources */,
 				DBAEC1951BC8FB8B00ECAEE5 /* iPhone6PLayout.swift in Sources */,
 				DBAA849C1BCCAB48003A7B33 /* ColorUtility.swift in Sources */,
@@ -422,6 +501,7 @@
 		};
 		DBAEC1841BC8C89300ECAEE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AC22A985DFE10EEB2115870 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftLayout/Info.plist;
@@ -433,6 +513,7 @@
 		};
 		DBAEC1851BC8C89300ECAEE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98771E6628F6FA39D89361AC /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftLayout/Info.plist;

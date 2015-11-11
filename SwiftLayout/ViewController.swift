@@ -7,15 +7,18 @@
 //
 
 import UIKit
+import Bond
 
 class ViewController: UIViewController {
+    
+    let button = UIButton()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let button = UIButton()
         button.frame.size = globalStyle.buttonLayout.buttonSize
-        button.backgroundColor = globalStyle.buttonLayout.buttonColor
+        theme.color.bindTo(button.bnd_backgroundColor)
+        button.addTarget(self, action: Selector("refreshTheme"), forControlEvents: .TouchUpInside)
         button.center = self.view.center
         self.view.addSubview(button)
 
@@ -25,7 +28,10 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    func refreshTheme(){
+        SwiftLayout.refreshTheme()
+    }
 
 }
 
