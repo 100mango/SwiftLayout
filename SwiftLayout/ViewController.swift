@@ -17,8 +17,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         button.frame.size = globalStyle.buttonLayout.buttonSize
-        theme.color.bindTo(button.bnd_backgroundColor)
-        button.addTarget(self, action: Selector("refreshTheme"), forControlEvents: .TouchUpInside)
+        Theme.backgroundColor.bindTo(button.bnd_backgroundColor)
+        button.addTarget(self, action: Selector("nightTheme"), forControlEvents: .TouchUpInside)
         button.center = self.view.center
         self.view.addSubview(button)
 
@@ -29,8 +29,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func refreshTheme(){
-        SwiftLayout.refreshTheme()
+    func nightTheme(){
+        Theme.nightTheme()
     }
 
 }
