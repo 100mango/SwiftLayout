@@ -17,5 +17,11 @@ struct iPhone6ButtonStruct:ButtonLayout{
 }
 
 
-
+//class cluster
+class WechatoutiPhone6:Wechatout{
+    override  init() {
+        super.init()
+        self.topMargin = 20
+    }
+}
 

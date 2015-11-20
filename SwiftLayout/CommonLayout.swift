@@ -33,3 +33,29 @@ extension ButtonLayout{
 
 struct ButtonLayoutStruct:ButtonLayout{
 }
+
+
+//Class cluster
+
+class Wechatout{
+    //边距
+    var topMargin:CGFloat = 10
+    //颜色
+    var themeColor:UIColor = UIColor.redColor()
+    //Size
+    var size:CGSize = CGSizeMake(20, 20)
+    //图片名字
+    var backgroundImageName = "background.png"
+    
+    class func wechatout()->Wechatout{
+        
+        var wechatout:Wechatout
+        switch screenModel{
+        case .Bigger:
+            wechatout = WechatoutiPhone6()
+        default:
+            wechatout = Wechatout()
+        }
+        return wechatout
+    }
+}

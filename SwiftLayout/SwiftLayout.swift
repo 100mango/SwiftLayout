@@ -8,7 +8,7 @@
 
 import UIKit
 
-private enum ScreenModel {
+enum ScreenModel {
     case Inch35
     case Inch4
     case Bigger
@@ -21,7 +21,7 @@ private enum ScreenModel {
     case iPad(PadModel)
 }
 
-private let screenModel: ScreenModel = {
+let screenModel: ScreenModel = {
     
     let screen = UIScreen.mainScreen()
     let nativeWidth = screen.nativeBounds.size.width
@@ -49,7 +49,7 @@ private let screenModel: ScreenModel = {
         return .Bigger // Default
     }
     
-    }()
+}()
 
 var globalStyle:CommonLayout = {
     
@@ -76,4 +76,10 @@ func refreshStyle(){
         }}()
 }
 
+
+//class cluster
+class commonStyle
+{
+    var wechatout:Wechatout = Wechatout()
+}
 
